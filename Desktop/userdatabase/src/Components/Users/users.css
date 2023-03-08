@@ -1,0 +1,13 @@
+.user-container{
+    background-color: #efefef;
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    margin-left: 20px;
+    margin-right: 20px;
+}

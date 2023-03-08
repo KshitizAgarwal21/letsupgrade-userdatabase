@@ -1,0 +1,29 @@
+.usersForm{
+    background-color: #efefef;
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+padding: 50px;
+color: dodgerblue;
+}
+
+input{
+    width: 500px;
+    display: block;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.submit{
+    border: none;
+    background-color: dodgerblue;
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}

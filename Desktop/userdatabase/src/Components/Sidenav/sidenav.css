@@ -1,0 +1,20 @@
+.sidenav{
+    width: 15%;
+    height: 100vh;
+    background-color: #efefef;
+    padding: 25px;
+}
+.dp{
+    height: 120px;
+    width: 120px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.adminName{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: fit-content;
+
+}

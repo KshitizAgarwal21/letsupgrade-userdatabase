@@ -1,0 +1,19 @@
+.headerUl{
+    padding: 0;
+    margin: 0;
+}
+.headerUl .headerLi{
+    display: inline-block;
+}
+.headerLi{
+    padding: 20px;
+    cursor: pointer;
+
+}
+header{
+    background-color: dodgerblue;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
