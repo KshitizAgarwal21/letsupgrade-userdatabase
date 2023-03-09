@@ -18,6 +18,9 @@ export default function Header() {
           <Link to="/modify">
             <li className="headerLi">Modify users</li>
           </Link>
+          <Link to="/context">
+            <li className="headerLi">Context</li>
+          </Link>
         </ul>
       </header>
     </div>

@@ -1,7 +1,10 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { loginContext } from "../../App";
 import "./users.css";
+
 export default function Users() {
+  var loginStatus = useContext(loginContext);
   var [users, setUsers] = useState([]);
   useEffect(() => {
     axios.get("https://reqres.in/api/users?page=2").then((res) => {
@@ -29,6 +32,7 @@ export default function Users() {
             );
           })}
         </div>
+        <div>{loginStatus}</div>
       </div>
     );
   } else {
