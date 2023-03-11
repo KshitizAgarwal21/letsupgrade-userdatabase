@@ -27,3 +27,9 @@ input{
     cursor: pointer;
     border-radius: 20px;
 }
+.red{
+    background-color:red;
+}
+.blue{
+    background-color: blue;
+}

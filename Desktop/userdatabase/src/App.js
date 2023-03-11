@@ -4,6 +4,7 @@ import "./App.css";
 import AddUsers from "./Components/AddUsers/AddUsers";
 import Context from "./Components/Context/Context";
 import Header from "./Components/Header/Header";
+import ModifyUsers from "./Components/ModifyUsers/ModifyUsers";
 import Sidenav from "./Components/Sidenav/Sidenav";
 import Users from "./Components/Users/Users";
 export var loginContext = createContext();
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/users" element={<Users />}></Route>
                 <Route path="/add" element={<AddUsers />}></Route>
                 <Route path="/context" element={<Context />}></Route>
+                <Route path="/modify" element={<ModifyUsers />}></Route>
               </Routes>
             </div>
           </div>
