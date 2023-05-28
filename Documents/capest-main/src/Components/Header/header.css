@@ -1,0 +1,29 @@
+header{
+    margin-top: 0;
+}
+.custom-input{
+    border: 1px solid red;
+    height: 30px;
+    width: 200px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 40px;
+    /* background-color: rgb(37, 38, 36); */
+    color: #efefef;
+    position: fixed;
+    width: 100%;
+   
+    text-decoration: none;
+}
+.add{
+    background-color: palevioletred;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: #efefef;
+    margin-top: 15px;
+   
+}

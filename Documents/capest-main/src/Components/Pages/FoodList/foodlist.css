@@ -1,0 +1,43 @@
+/* .burgers{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    overflow: scroll;
+    justify-content: space-between;
+} */
+.add-item{
+    background-color:greenyellow;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: #efefef;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.remove-item{
+    background-color:brown;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: #efefef;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.items{
+    margin-top: 50px;
+}
+.pizza{
+    display: flex;
+    margin-left: 20px;
+    overflow: scroll;
+    justify-content: space-between;
+}
+
+.food{
+    display: flex;
+    overflow: scroll;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 60px;
+}

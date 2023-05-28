@@ -1,0 +1,113 @@
+.main-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+.mobile-carousel{
+    width: 75%;
+    height: 650px;
+}
+.mobile-carousel img{
+    width: 100%;
+    height:100%;
+    margin-top: 50px;
+}
+
+.login-container{
+    width: 60%;
+    height: 650px;
+  
+}
+.login-details{
+    border: 1px solid #efefef;
+    width: 80%;
+    height: 70%;
+}
+.login-details img{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.input-container input{
+    display: block;
+    margin: 5px auto;
+    width: 75%;
+    height: 35px;
+    border: 1px solid #efefef;
+}
+.input-container{
+    text-align: center;
+}
+.login{
+    color: #efefef;
+    background-color: dodgerblue;
+    width: 75%;
+    height: 35px;
+    border: none;
+    font-weight:bold ;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: block;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.smallhr{
+    display: inline-block ;
+    width: 100px;
+    color: #efefef;
+    font-style: normal;
+    opacity: .5;
+    margin-left: 5px;
+}
+.breaker{
+    margin: 0 auto;
+    text-align: center;
+}
+.tplogin{
+    margin-top: 20px;
+    color: #004f71;
+    font-weight: bold;
+}
+.smallfont{
+    font-size: 12px;
+    color: #004f71;
+}
+.action-signup{
+    border: 1px solid #efefef;
+    width: 80%;
+    height: 15%;
+    margin-top: 5px;
+    text-align: center;
+}
+.action-app{
+    text-align: center;
+    width: 80%;
+}
+.action-app p{
+    font-size: 14px;
+}
+.app-banner{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.app-banner img{
+    width: 50%;
+    margin-left: 5px;
+}
+.signup{
+    background-color: dodgerblue;
+    width: 75%;
+    height: 35px;
+    border: none;
+    font-weight:bold ;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: block;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-top: 5px;
+}

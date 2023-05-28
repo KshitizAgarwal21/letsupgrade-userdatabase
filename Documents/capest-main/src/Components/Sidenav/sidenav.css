@@ -1,0 +1,89 @@
+.side-nav{
+    text-align: center;
+    margin-top: 10px;
+}
+.content-main{
+    margin-left: 20px;
+    width: 85%;
+}
+
+.name-container{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+}
+
+.title-container{
+    margin-top: 5px;
+    color: #767676;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.social-links{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-picture{
+    width: 120px;
+    height: 115px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../download.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid palevioletred;
+    padding: 2px;
+}
+
+.menulogo{
+    height: 70px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.mini{
+    width: 100px;
+    
+    margin: 0 auto;
+}
+
+.mini p{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+.posts{
+    border-right: 1px solid grey;
+}
+.followers{
+    border-right: 1px solid grey;
+}
+
+.social-ul li{
+    list-style: none;
+    text-align: left;
+}
+.menu-item{
+    margin-left: 10px;
+    vertical-align: super;
+    
+}
+.navlink{
+    text-decoration: none;
+}
